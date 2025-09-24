@@ -8,7 +8,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useAuth } from "@/contexts/AuthContext";
 import { Sparkles, BookOpen, Star } from "lucide-react";
-import heroImage from "@/assets/hero-illustration.jpg";
+import login_page_image from "@/assets/login_page_image.png";
 import ForgotPassword from "@/components/ForgotPassword";
 
 const Auth = () => {
@@ -113,7 +113,7 @@ const Auth = () => {
           
           <div className="rounded-2xl overflow-hidden shadow-card lg:block hidden">
             <img 
-              src={heroImage} 
+              src={login_page_image} 
               alt="Children reading books under stars" 
               className="w-full h-auto"
             />
